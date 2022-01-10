@@ -2,7 +2,7 @@ defmodule Wabanex.Repo.Migrations.CreateExercisesTable do
   use Ecto.Migration
 
   def change do
-    crete table(:exercises) do
+    create table(:exercises) do
       add :name, :string
       add :youtube_video_url, :string
       add :protocol_description, :string
